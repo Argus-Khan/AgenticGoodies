@@ -49,4 +49,11 @@ Cursor sometimes thinks for a long time and sends nothing. Magpie closes that ru
 
 ## Skills
 
-This repo will also hold custom OpenCode skills, one folder per skill with a `SKILL.md`. None are in the first commit. Skills that change the machine's privileges, such as passwordless sudo, stay out of this public repo.
+OpenCode skills live in `skills/`, one folder each with a `SKILL.md`. Point `skills.paths` at that folder, or symlink the ones you want into `~/.config/opencode/skills/`.
+
+| Skill | What it does |
+| --- | --- |
+| `browser-bridge` | Drive a browser for reading and testing pages. Browsepal drives the real browser. An isolated Chrome exposes DevTools. |
+| `lesson-creation` | Build voice-narrated lesson pages with quizzes and coding exercises. |
+
+A skill that changes a machine's privileges, such as passwordless sudo, is not in this repo.
