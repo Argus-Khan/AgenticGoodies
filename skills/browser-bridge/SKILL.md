@@ -39,6 +39,8 @@ Two ways to drive a browser. Pick per task:
 
 ## Part 1 — browsepal extension
 
+Repo: [github.com/Argus-Khan/BrowsePal](https://github.com/Argus-Khan/BrowsePal)
+
 ### How it works
 
 - The extension connects out from the browser to a local WebSocket server (default `ws://127.0.0.1:9222`).

@@ -2,7 +2,7 @@
 name: grant-nopass
 description: MANDATORY gate before any sudo command. Use when a command needs sudo/root privileges, when a sudo command fails or hangs on a password prompt, or when the user says "grant nopass", "enable nopass", "sudo without password", or "trigger polkit". You MUST run the grant-nopass script and verify it succeeded BEFORE running any sudo command. You must NEVER handle the user's password yourself. You must NEVER run sudo without verifying NOPASSWD is active first.
 ---
-> **Warning.** This skill lets an agent run commands as root without a password for a short time. Only install it on a machine you control. Anyone who can drive the agent while the grant is active can run root commands. Do not install it on a shared computer. The `grant-nopass` program that writes the sudoers rule is not in this repo. You install that yourself.
+> <span style="color:red"><strong>Warning.</strong> This skill lets an agent run commands as root without a password for a short time. Only install it on a machine you control. Anyone who can drive the agent while the grant is active can run root commands. Do not install it on a shared computer. The `grant-nopass` program that writes the sudoers rule is not in this repo. You install that yourself.</span>
 
 # Grant NOPASSWD Sudo
 
