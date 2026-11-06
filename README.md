@@ -55,5 +55,5 @@ OpenCode skills live in `skills/`, one folder each with a `SKILL.md`. Point `ski
 | --- | --- |
 | `browser-bridge` | Drive a browser for reading and testing pages. Browsepal drives the real browser. An isolated Chrome exposes DevTools. |
 | `lesson-creation` | Build voice-narrated lesson pages with quizzes and coding exercises. |
+| `grant-nopass` | **Warning.** Lets an agent run root commands without a password for a short time. Only on a machine you control. The program that writes the sudoers rule is not included. |
 
-A skill that changes a machine's privileges, such as passwordless sudo, is not in this repo.
