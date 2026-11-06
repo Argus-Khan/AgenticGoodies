@@ -1,0 +1,11 @@
+{
+  "name": "cursor-auth",
+  "private": true,
+  "type": "module",
+  "description": "Use a Cursor subscription as an OpenCode 2 model provider.",
+  "license": "MIT",
+  "exports": "./index.mjs",
+  "dependencies": {
+    "@magpie-community/opencode-cursor-auth": "0.2.32"
+  }
+}
